@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background:#002339;
+}
+
+.container1{
+    height: 100vh;
+    width: 100%;
+    padding: 10px;
+}
+
+.text{
+    margin-top: 70px;
+    width: 362px;
+}
+
+.text h1{
+    color: #fff;
+    text-align: center;
+}
+
+.text h1 span{
+    color: #019f55;
+    border-bottom: 4px solid  #019f55;
+    padding-bottom: 7px;
+}
+
+.searchbox{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    background: #fff;
+    width: 40%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.searchbox input{
+    width: 40%;
+    height: 50px;
+    text-align: center;
+    background: #fff;
+    outline: none;
+    border: none;
+    flex: 1;
+    font-size: 24px;
+    margin-top: 13px;
+}
+
+.searchbox button{
+    border: none;
+    outline: none;
+    padding: 16px 12px;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.searchbox button img{
+    width: 34px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn button{
+    padding: 18px;
+    background: #019f55;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+.btn button img{
+   width: 25px;
+   margin-right: 16px;
+}
+
+@media only screen and (min-width:350px) and (max-width:501px){
+    .searchbox{
+        width: 80%;
+    }
+
+}
+
+@media only screen and (min-width:501px) and (max-width:801px){
+    .searchbox{
+        width: 60%;
+    }
+
+}
+
+@media only screen and (min-width:801px) and (max-width:1000px){
+    .searchbox{
+        width: 50%;
+    }
+
+}
